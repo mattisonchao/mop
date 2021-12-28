@@ -4,6 +4,7 @@ about: Submit a MIP (MOP Improvement Proposal)
 title: ''
 labels: MIP
 assignees: ''
+---
 
 ## Motivation
 
