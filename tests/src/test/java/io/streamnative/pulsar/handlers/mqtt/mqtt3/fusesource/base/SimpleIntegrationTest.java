@@ -271,7 +271,7 @@ public class SimpleIntegrationTest extends MQTTTestBase {
 
     @Test(timeOut = TIMEOUT)
     public void testSubscribeRejectionWithSameClientId() throws Exception {
-        final String topicName = "persistent://public/default/testSubscribeWithSameClientId";
+        final String topicName = "persistent://public/default/testSubscribeRejectionWithSameClientId";
         MQTT mqtt = createMQTTClient();
         mqtt.setClientId("client-id-0");
         BlockingConnection connection1 = mqtt.blockingConnection();
